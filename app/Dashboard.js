@@ -53,6 +53,7 @@ class Dashboard extends React.Component {
             <span>Click on a data point to see the corresponding WebPageTest result</span>
           )}
           lastResult={lastResult}
+          maxValue={10}
           metrics={['TTFB', 'loadTime', 'fullyLoaded']}
           onClick={onClickWpt}
           title='Load times'
